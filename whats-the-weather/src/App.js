@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { format, getDayOfYear } from "date-fns";
 // import NotFound from "./components/NotFound";
 
+// testing Netlify deploy
+
 const api = {
   key: process.env.REACT_APP_API_KEY,
   base: "https://api.openweathermap.org/data/2.5/",
 };
-
-// testing Netlify deploy
 
 function App() {
   const [query, setQuery] = useState("");

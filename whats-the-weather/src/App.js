@@ -7,6 +7,8 @@ const api = {
   base: "https://api.openweathermap.org/data/2.5/",
 };
 
+// testing Netlify deploy
+
 function App() {
   const [query, setQuery] = useState("");
   const [weather, setWeather] = useState({});

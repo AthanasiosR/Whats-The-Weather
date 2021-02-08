@@ -3,7 +3,7 @@ import { format, getDayOfYear } from "date-fns";
 // import NotFound from "./components/NotFound";
 
 const api = {
-  key: process.env.REACT_APP_API_KEY,
+  key: process.env.REACT_APP_OPEN_WEATHER_MAP_API_KEY,
   base: "https://api.openweathermap.org/data/2.5/",
 };
 
